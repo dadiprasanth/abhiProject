@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import CustomizedDialogs from './Dialouge';
-
+import img from "./Screenshot 2023-09-10 143044.png"
 
 export default function Project(props) {
   const[open,setOpen]=React.useState(false)
@@ -22,8 +22,7 @@ export default function Project(props) {
         component="img"
        //alt="green iguana"
         height="140"
-        src={`https://teams.microsoft.com/l/message/48:notes/1694336458671?context=%7B%22contextType%22%3A%22chat%22%7D
-       `}// image="/static/images/cards/contemplative-reptile.jpg"
+        src={img}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
